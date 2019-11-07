@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmprevoCodingTest.Tests", "EmprevoCodingTest.Tests\EmprevoCodingTest.Tests.csproj", "{3F00BFBB-535C-45E3-A314-AC6DEDBB70F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmprevoCodingTest", "EmprevoCodingTest\EmprevoCodingTest.csproj", "{80C5FB98-9A68-4502-BA51-229DE7B3C3D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F00BFBB-535C-45E3-A314-AC6DEDBB70F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F00BFBB-535C-45E3-A314-AC6DEDBB70F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F00BFBB-535C-45E3-A314-AC6DEDBB70F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F00BFBB-535C-45E3-A314-AC6DEDBB70F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80C5FB98-9A68-4502-BA51-229DE7B3C3D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80C5FB98-9A68-4502-BA51-229DE7B3C3D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80C5FB98-9A68-4502-BA51-229DE7B3C3D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80C5FB98-9A68-4502-BA51-229DE7B3C3D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E7F8073-1751-44C7-B60D-6E1FA9F85E20}
+	EndGlobalSection
+EndGlobal
