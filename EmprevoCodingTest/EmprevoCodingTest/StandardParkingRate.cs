@@ -8,7 +8,7 @@ namespace EmprevoCodingTest
 
         public decimal CalculateParkingRate(DateTime entryDateTime, DateTime exitDateTime)
         {
-            var totalHours = Math.Ceiling(exitDateTime.Subtract(entryDateTime).TotalHours);
+            var totalHours = Math.Max(1, Math.Ceiling(exitDateTime.Subtract(entryDateTime).TotalHours));
 
             if (totalHours <= 3)
             {

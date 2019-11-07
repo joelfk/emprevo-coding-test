@@ -439,6 +439,26 @@ namespace EmprevoCodingTest.Tests
                                 }
                             }
                         }
+
+                        class And_The_Entry_Date_And_Time_And_The_Exit_Date_And_Time_Are_The_Same
+                        {
+                            [Test]
+                            public void Then_The_Standard_Rate_Name_And_Price_Should_Be_Displayed()
+                            {
+                                var entryDateTime = TestUtilities.MapDayOfWeekToDate(DayOfWeek.Monday).AddHours(11).AddMinutes(30);
+
+                                using (var stringWriter = new StringWriter())
+                                {
+                                    Console.SetOut(stringWriter);
+
+                                    CarparkRateCalculationEngine.Main(new string[] { entryDateTime.ToString(), entryDateTime.ToString() });
+
+                                    var output = stringWriter.ToString();
+
+                                    Assert.AreEqual($"Rate: Standard Rate. Price: $5.00.{Environment.NewLine}", output);
+                                }
+                            }
+                        }
                     }
                 }
             }
